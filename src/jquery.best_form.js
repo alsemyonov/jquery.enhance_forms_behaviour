@@ -5,7 +5,7 @@
 
     $.fn.enhanceBehaviour = function() {
         return this.each(function() {
-            var submits = $(this).find(':submit');
+            var submits = $(':submit', this);
             submits.click(function() {
                 var hidden = document.createElement('input');
                 hidden.type = 'hidden';
