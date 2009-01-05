@@ -1,0 +1,7 @@
+Plugin to enhance standard html forms behaviour.
+
+It disables submit button to prevent double submitting of the form, but sends
+hidden fields with submit value to save ability of matching, what form should do 
+(e.g. submits Save and Destroy)
+
+Released under WTFPL. No support. No warranty.
